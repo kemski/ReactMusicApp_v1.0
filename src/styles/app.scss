@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+h1,
+h2,
+h3 {
+  color: rgb(207, 207, 207);
+  font-style: normal;
+  font-size: 400;
+}
+
+h4 {
+  font-size: 400;
+  font-style: italic;
+}
+
+@import "./player";
+@import "./song";
+@import "./library";
+@import "./nav";
